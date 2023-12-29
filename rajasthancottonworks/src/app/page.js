@@ -11,7 +11,7 @@ export default function Home() {
       <title>Rajasthan Cotton Works</title>
     </Head>
     
-    <div className=" h-28 w-screen bg-yellow-200 text-black flex justify-between items-center" >
+    <div className=" h-28 w-full bg-yellow-200 text-black flex justify-between items-center" >
 
       {/* First div containing the left side of navbar */}
       <div className="flex justify-items-start items-center">
@@ -40,7 +40,7 @@ export default function Home() {
     </div>
 
     {/* Working on the hero section from here */}
-    <div className="w-screen h-[40rem] relative">
+    <div className="w-full h-[40rem] relative">
 
       {/* a different div to cater the heading */}
       <div className="  flex justify-center items-center">
@@ -51,6 +51,28 @@ export default function Home() {
 
       {/* Image used by using the image component in next */}
       <Image src="/blanket.jpg" fill="true" alt="Main image of the website" className="opacity-40 " />
+
+    </div>
+
+    {/* WORKING ON THE OUR OFFERING SECTION FROM HERE */}
+
+    <div className="w-full h-96 bg-red-200" >
+
+      At our shop, we provide you with the best quality mattresses and other home accessories. We make mattresses and other accessories on order.
+      We also take orders on call just for the sake of customer's convenience.
+      At our shop, you'll find:
+      1.Foam Mattresses
+      2.Cotton Mattresses
+      3. Bedsheets
+      4. Pillows
+      5. Cushions
+      6. Quilts (Jaipuri quilts made on special order)
+      7. Plywood Foldings
+      8. Plastic Niwar Foldings
+      9. Green Net (for shadow purpose)
+      etc.
+
+      All the listed items are available at our shop on very reasonable and competitive price as compared to the general market.
 
     </div>
     
