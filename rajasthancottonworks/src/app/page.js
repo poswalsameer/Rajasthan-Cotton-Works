@@ -1,5 +1,6 @@
 
 import Head from "next/head"
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -35,6 +36,19 @@ export default function Home() {
         </div>
 
       </div>
+
+    </div>
+
+    {/* Working on the hero section from here */}
+    <div className="w-screen h-[40rem] relative">
+
+      <div className="  flex justify-center items-center">
+        <p className="absolute font-extrabold text-7xl text-center mt-[16rem] ">
+            Sleep Well, Live Better
+          </p>
+      </div>
+
+      <Image src="/blanket.jpg" fill="true" alt="Main image of the website" className="opacity-40 " />
 
     </div>
     
