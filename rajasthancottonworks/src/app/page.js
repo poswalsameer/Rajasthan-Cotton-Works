@@ -42,12 +42,14 @@ export default function Home() {
     {/* Working on the hero section from here */}
     <div className="w-screen h-[40rem] relative">
 
+      {/* a different div to cater the heading */}
       <div className="  flex justify-center items-center">
         <p className="absolute font-extrabold text-7xl text-center mt-[16rem] ">
             Sleep Well, Live Better
           </p>
       </div>
 
+      {/* Image used by using the image component in next */}
       <Image src="/blanket.jpg" fill="true" alt="Main image of the website" className="opacity-40 " />
 
     </div>
