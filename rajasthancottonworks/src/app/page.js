@@ -11,7 +11,7 @@ export default function Home() {
       <title>Rajasthan Cotton Works</title>
     </Head>
     
-    <div className=" h-28 w-full bg-yellow-200 text-black flex justify-between items-center" >
+    <div className=" h-28 w-full bg-[#FFF7D8] text-black flex justify-between items-center" >
 
       {/* First div containing the left side of navbar */}
       <div className="flex justify-items-start items-center">
@@ -56,23 +56,31 @@ export default function Home() {
 
     {/* WORKING ON THE OUR OFFERING SECTION FROM HERE */}
 
-    <div className="w-full h-96 bg-red-200" >
+    <div className="w-full h-[40rem] bg-[#FFFCF2] text-black font-semibold" >
 
-      At our shop, we provide you with the best quality mattresses and other home accessories. We make mattresses and other accessories on order.
-      We also take orders on call just for the sake of customer's convenience.
-      At our shop, you'll find:
-      1.Foam Mattresses
-      2.Cotton Mattresses
-      3. Bedsheets
-      4. Pillows
-      5. Cushions
-      6. Quilts (Jaipuri quilts made on special order)
-      7. Plywood Foldings
-      8. Plastic Niwar Foldings
-      9. Green Net (for shadow purpose)
-      etc.
+      <br />
+      <br />
 
-      All the listed items are available at our shop on very reasonable and competitive price as compared to the general market.
+      <p className="text-2xl text-center p-6 font-extrabold" >At our shop, we provide you with the best quality mattresses and other home accessories. We make mattresses and other accessories on order.</p>
+      <p className="text-xl p-6 text-center">We also take orders on call just for the sake of customer's convenience.</p>
+
+      <p className="text-xl p-6 text-center font-extrabold " >At our shop, you'll find:</p>
+
+      <ul className="text-xl p-6 text-center">
+
+        <li>Foam Mattressses</li>
+        <li>Cotton Mattresses</li>
+        <li>Bedsheets</li>
+        <li>Pillows</li>
+        <li>Cushions</li>
+        <li>Quilts (Jaipuri quilts made on order)</li>
+        <li>Plywood Foldings</li>
+        <li>Plastic Niwar Foldings</li>
+        <li>Green Net (For shadow purposes) </li>
+
+      </ul>
+
+      <p className="text-xl p-6 text-center  ">All the listed items are available at our shop on very reasonable and competitive price as compared to the general market.</p>
 
     </div>
     
