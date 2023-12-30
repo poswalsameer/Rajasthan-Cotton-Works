@@ -56,7 +56,7 @@ export default function Home() {
 
     {/* WORKING ON THE OUR OFFERING SECTION FROM HERE */}
 
-    <div className="w-full h-[40rem] bg-[#FFFCF2] text-black font-semibold" >
+    <div className="w-full h-[44rem] bg-[#FFFCF2] text-black font-semibold" >
 
       <br />
       <br />
@@ -80,7 +80,26 @@ export default function Home() {
 
       </ul>
 
-      <p className="text-xl p-6 text-center  ">All the listed items are available at our shop on very reasonable and competitive price as compared to the general market.</p>
+      <p className="text-xl p-6 text-center ">All the listed items are available at our shop on very reasonable and competitive price as compared to the general market.</p>
+
+      <br />
+      <br />
+
+    </div>
+
+
+    {/* WORKING ON THE IMAGE GALLERY FROM THIS SECTION */}
+
+    <div className="flex flex-col justify-center items-center bg-[#FFF7D8] w-full h-[40rem] " >
+
+        <div className="text-black text-6xl font-extrabold " >IMAGE GALLERY</div>
+
+        {/* THIS GRID WILL WORK AS THE MAIN IMAGE GALLERY */}
+        <div className="grid grid-cols-3 " >
+
+
+        </div>
+
 
     </div>
     
