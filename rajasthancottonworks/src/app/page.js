@@ -119,6 +119,14 @@ export default function Home() {
           
         </div>
 
+    </div>
+
+    {/* WORKING ON THE STORE LOCATOR PART FROM HERE */}
+
+    <div className="w-full h-[44rem] bg-[#FFFCF2] text-black font-semibold ">
+
+
+
 
     </div>
     
