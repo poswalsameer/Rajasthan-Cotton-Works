@@ -90,52 +90,33 @@ export default function Home() {
 
     {/* WORKING ON THE IMAGE GALLERY FROM THIS SECTION */}
 
-    <div className="flex flex-col justify-center items-center bg-[#FFF7D8] w-full h-[80rem] " >
+    <div className="flex flex-col items-center bg-[#FFF7D8] w-full h-[80rem] " >
 
-        <div className="text-black text-6xl font-extrabold mt-[5rem] mb-[5rem] " >
+        <div className="text-black text-6xl font-extrabold m-16" >
           IMAGE GALLERY
         </div>
 
         {/* THIS GRID WILL WORK AS THE MAIN IMAGE GALLERY */}
-        <div className="grid grid-rows-3 grid-cols-3 gap-x-14 gap-y-14 m-8 " >
+        <div className=" m-3 w-full grid grid-rows-3 grid-cols-3 gap-y-12 justify-items-center items-center " >
 
-          <div>
-            <Image src="/bedsheet.jpg" width={200} height={200} />
-          </div>
-
-          <div>
-            <Image src="/folding.jpg" width={200} height={200} />
-          </div>
-
-          <div>
-            <Image src="/folding2.jpg" width={200} height={200} />
-          </div>
-
-          <div>
-            <Image src="/folding3.jpg" width={200} height={200} />
-          </div>
-
-          <div>
-            <Image src="/mattress.jpg" width={200} height={200} />
-          </div>
-
-          <div>
-            <Image src="/mattress2.jpg" width={200} height={200} />
-          </div>
-
-          <div>
-            <Image src="/mattress3.jpg" width={200} height={200} />
-          </div>
-
-          <div>
-            <Image src="/rack.jpg" width={200} height={200} />
-          </div>
-
-          <div>
-            <Image src="/wholeshop.jpg" width={200} height={200} />
-          </div>
-
-
+            <Image src="/bedsheet.jpg" width={300} height={300} className="h-80 w-80 border-4 border-[#5C4033] rounded-xl " />
+          
+            <Image src="/folding.jpg" width={200} height={200} className="h-80 w-80 border-4 border-[#5C4033] rounded-xl" />
+          
+            <Image src="/folding2.jpg" width={200} height={200} className="h-80 w-80 border-4 border-[#5C4033] rounded-xl" />
+          
+            <Image src="/folding3.jpg" width={200} height={200} className="h-80 w-80 border-4 border-[#5C4033] rounded-xl" />
+          
+            <Image src="/mattress.jpg" width={200} height={200} className="h-80 w-80 border-4 border-[#5C4033] rounded-xl" />   
+          
+            <Image src="/mattress2.jpg" width={200} height={200} className="h-80 w-80 border-4 border-[#5C4033] rounded-xl" />
+          
+            <Image src="/mattress3.jpg" width={200} height={200} className="h-80 w-80 border-4 border-[#5C4033] rounded-xl" />
+          
+            <Image src="/rack.jpg" width={200} height={200} className="h-80 w-80 border-4 border-[#5C4033] rounded-xl" />
+          
+            <Image src="/wholeshop.jpg" width={200} height={200} className="h-80 w-80 border-4 border-[#5C4033] rounded-xl" />
+          
         </div>
 
 
