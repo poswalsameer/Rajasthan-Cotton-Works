@@ -90,12 +90,50 @@ export default function Home() {
 
     {/* WORKING ON THE IMAGE GALLERY FROM THIS SECTION */}
 
-    <div className="flex flex-col justify-center items-center bg-[#FFF7D8] w-full h-[40rem] " >
+    <div className="flex flex-col justify-center items-center bg-[#FFF7D8] w-full h-[80rem] " >
 
-        <div className="text-black text-6xl font-extrabold " >IMAGE GALLERY</div>
+        <div className="text-black text-6xl font-extrabold mt-[5rem] mb-[5rem] " >
+          IMAGE GALLERY
+        </div>
 
         {/* THIS GRID WILL WORK AS THE MAIN IMAGE GALLERY */}
-        <div className="grid grid-cols-3 " >
+        <div className="grid grid-rows-3 grid-cols-3 gap-x-14 gap-y-14 m-8 " >
+
+          <div>
+            <Image src="/bedsheet.jpg" width={200} height={200} />
+          </div>
+
+          <div>
+            <Image src="/folding.jpg" width={200} height={200} />
+          </div>
+
+          <div>
+            <Image src="/folding2.jpg" width={200} height={200} />
+          </div>
+
+          <div>
+            <Image src="/folding3.jpg" width={200} height={200} />
+          </div>
+
+          <div>
+            <Image src="/mattress.jpg" width={200} height={200} />
+          </div>
+
+          <div>
+            <Image src="/mattress2.jpg" width={200} height={200} />
+          </div>
+
+          <div>
+            <Image src="/mattress3.jpg" width={200} height={200} />
+          </div>
+
+          <div>
+            <Image src="/rack.jpg" width={200} height={200} />
+          </div>
+
+          <div>
+            <Image src="/wholeshop.jpg" width={200} height={200} />
+          </div>
 
 
         </div>
